@@ -169,7 +169,7 @@ def build_clang_tidy_command(
     """
     command = ["clang-tidy"]
     command += ["-p", f"build/{package_name}"]
-    command += [f"--header-filter={package_path}"]
+    command += [f"--header-filter={package_path}/.*"]
 
     if config:
         command += [f"--config={config}"]
