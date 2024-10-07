@@ -56,7 +56,7 @@ Autoware Clang-Tidy supports [argcomplete](https://github.com/kislyuk/argcomplet
 
 ## License
 
-This project is licensed under the [MIT License](LICENSE).
+This project is licensed under the [Apache License](LICENSE).
 
 ---
 
