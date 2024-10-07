@@ -6,7 +6,7 @@ Autoware Clang-Tidy is a command-line tool designed to analyze and enforce C++ c
 
 We recommend using [pipx](https://pipxproject.github.io/pipx/) to install Autoware Clang-Tidy.
 ```bash
-pipx install autoware-clang-tidy
+pipx install git+https://github.com/yhisaki/autoware-clang-tidy.git
 ```
 
 You can verify the installation by running:
